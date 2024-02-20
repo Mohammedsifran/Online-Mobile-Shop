@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+.EmployeeDetails {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #039;
+	text-decoration: none;
+}
+.UserName {
+}
+.Password {
+}
+.FirstName {
+}
+.LastName {
+}
+.DateOfBirth {
+}
+.NIC {
+}
+.EmployeeAddress {
+}
+.EmployeeTelephone {
+}
+.Email {
+}
+.Designation {
+}
+.SaveEmployee {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: justify;
+	color:#039
+ 
+}
+.reset {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	color: #039;
+	text-decoration: none;
+}

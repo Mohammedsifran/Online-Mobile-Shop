@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Mobile Tech</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+</head>
+
+<body background="images/background3.jpg">
+
+<table width="100%" border="0">
+
+
+
+  <tr height="40px" width="100%">
+
+  <td align="center">
+	<img src="images/logo.png" class="logo"/>
+  </td>
+
+</tr>
+
+
+<tr height="40px" width="100%">
+    
+    <td>
+    
+    <div class="navigation" id="navigation">
+    
+      <ul>
+      
+  			<li class="menu" id="lstHome"><a  href="index.html"><strong>Home</strong></a></li>
+  			|
+		    <li class="menu" id="lstStore"><a href="phonestore.html"><strong>Phone Store</strong></a></li>
+  		 
+  			|
+  			<li class="menu" id="lstContactus"><a href="contactus.html"><strong>Contact Us</strong></a></li>
+            |
+            <li class="menu" id="lstSignin"><a href="signin.html"><strong>Sign In/Sign Up</strong></a></li>
+            |
+            <li class="menu" id="lstCart"><a href="shoppingcart.html"><strong>Shopping Cart</strong></a></li>
+   	  </ul>
+     </div>
+     
+    </td>
+  </tr>          
+</table>
+<!---end of menu bar------------------------------------------------------------------------------------------------------------------>
+
+<div class="welcome">
+  <p>Welcome to Mobile Tech</p>
+  </div>
+  
+  <marquee><b> Mobile Phones   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Accessories    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;     Earphones    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;     Charger   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;     Memory cards    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;     USB cables    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    Covers   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    Tempered Glass        </b> </marquee>
+  
+  </br>
+    </br>
+  <table width="100%"  border="0">
+    <tr><td><div  align="center" style="min-width:850px min-height:450px" id="fadeMe"> 
+      <p><img class="mySlides" src="images/store.jpg" width="700" height="350" /> <img class="mySlides" src="images/store2.jpg" width="700" height="350" /> <img class="mySlides" src="images/store3.jpeg" width="700" height="350" /></p>
+      <p>&nbsp;</p>
+    </div></td>
+      
+    </tr>
+  </table>
+
+
+<!--https://www.w3schools.com/howto/howto_js_slideshow.asp-->
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+                  
+
+
+
+
+
+
+
+
+
+</body>
+</br>
+
+<footer class="footer" >
+  <p><a href="contactus.html"> Contact us</a> regarding any issue of this site.<br>
+  All right Reserved. <br> </p>
+</footer>
+</html>
+
+
+

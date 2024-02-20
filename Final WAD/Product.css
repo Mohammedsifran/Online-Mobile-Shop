@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* hover effect for buttons*/
+
+body{
+	
+	background-color:#FFF;
+}
+.logo{
+	
+	width: 224px;
+	height: 155px;
+	
+}
+
+select:hover{
+	
+	border-color: #B80B0B;
+	color: black;
+	background-color: white;
+}
+
+h2{
+	
+	font-size:20px;
+	font-weight:bold;
+	color: #021F5F;
+	
+	
+}
+
+h3{
+	
+	font-size:18px;
+	font-weight:bold;
+	color: black;
+}
+
+.main_table{
+	background-color: white;
+	
+}
+/*product detail prints*/
+.lbl_print{
+	
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size:15px;
+	font-weight:bold;
+}
+
+/*product details*/
+.lbl_Details{
+	
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size:15px;
+	font-weight:bold;
+	color: blue;
+}
+ /*select colour*/
+.lst_ProductColor{
+	width:auto;
+	overflow: hidden;
+    background: #F8F8F8;
+    border: 1px solid #02054A;
+    height: auto;
+    border-radius:2px;
+	background-color: skyblue;
+}
+.txtAddQuantity{
+	width: auto;
+	background: #F8F8F8;
+    border: 1px solid #02054A;
+    border-radius:2px;
+	border-color: blue;
+}
+.lbl_Review{
+	
+	border-radius: 2px;
+	color: #5F0204;
+}
+.review_table{
+	
+	border: 2px solid #dadada;
+    border-radius: 7px;
+	background-color: #D1CECE;
+}
+.review_table:focus{
+	
+	outline: none;
+    border-color: aquamarine;
+    box-shadow: 0 0 10px #9ecaed;
+}
+.txtReview{
+	width: auto;
+	
+	
+}
+
+.btnBuy{
+	
+	width: 100%;
+    padding: 10px 18px;
+    background-color: red;
+	border: none;
+    cursor: pointer;
+	color: white;
+	font-size:18px;
+}
+.btnBuy:hover{
+	background-color: #FAD236;
+	color: white;
+}
+.lbl_Desc_print{
+	width: 300;
+    padding: 10px 18px;
+	border: none;
+    cursor: pointer;
+	color: black;
+	font-size:18px;
+	
+}
+.Describe_table{
+	
+	border-color: white;
+	background-color: #A29C9C;
+	color: black;
+	
+	
+}
+
+.btn_proceed:hover{
+	background-color: #620000;
+	color: white;
+}
+	
+
+.btn_proceed{
+	width: 100%;
+    padding: 10px 18px;
+    background-color: black;
+	border: none;
+    cursor: pointer;
+	color: white;
+	font-size:18px;
+	
+}
+.proceed_table{ 
+	width: auto;
+	border: #100000;
+	height: auto;
+	background-color: white;
+	
+}
+.txtQuantity_buy{
+	width: auto;
+	background: #F8F8F8;
+    border: 1px solid #02054A;
+    border-radius:2px;
+	border-color: blue
+	
+}
+
+
+
+	
+	
+
+
+

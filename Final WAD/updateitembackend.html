@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript">
+function validateName()
+{
+	var name = document.getElementById("Itemcode").value;
+	var at = name.indexOf(0);
+	
+	
+	
+	if(!at=="#")
+	{
+		alert("Please enter a valid Item code");
+		return false;
+	}
+	return true;
+}
+
+function Validate()
+{
+	if(validateName())
+	{
+		alert("Item updated to Database");
+	}
+	else
+	{
+		event.preventDefault();
+	}
+}
+
+
+
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Mobile Tech| Item </title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+
+</head>
+
+<body>
+<table width="100%" border="0">
+  <tr>
+    <td rowspan="3">&nbsp;</td>
+    <td width="854" rowspan="3" align="center"><h1><img src="images/logo.png" alt="" class="logo"/></h1></td>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="211" align="center"><a href="index.html"><img src="images/logout.jpg" alt="50" width="176" height="50" width:="50"/></a></td>
+    <td width="38" rowspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="61"  align="center">&nbsp;    </td>
+  </tr>
+</table>
+
+
+<table width="1264" border="0">
+  <tr>
+    <td>
+    <div class="navigation" id="navigation" align="center">
+      <ul>
+  			<li class="menu" id="li_menu"><a href="backend_item.html"><strong>Items</strong></a></li>
+  			|
+  			<li class="menu" id="li_menu"><a href="backend_employee.html"><strong>Employee</strong></a></li>
+  			|
+  			<li class="menu" id="li_menu"></li>
+  			<li class="menu" id="li_menu"><a  href="backend_stock.html"><strong>Add Stock</strong></a></li>
+            |
+            <li class="menu" id="li_menu"><a href="backend_reports.html"><strong>Reports/Tables</strong></a></li>
+          
+   	  </ul>
+     </div>
+  </tr>
+</table>
+
+</br>
+
+
+
+  
+  <div class="formsection">
+    <form id="form" name="form" method="post" action="updateItem.php" >
+      
+      
+    
+    <input type="text" placeholder="Item Code" name="Itemcode" id="Itemcode" class="form" required>
+    <input type="text" placeholder="Cost" name="Cost" class="form" required>
+    <input type="text" placeholder="In Stock" name="Instock" class="form" required>
+    
+    <select name="Warranty "class="dropdown" >
+                <option>No Warranty</option>
+                  <option>1 Year</option>
+                  <option>2 Years</option>
+                  <option>3 Years</option>
+                 </select>
+    
+    
+    <input type="submit" name="btnSubmit" value="Update Item" class="btnform"  onclick="Validate()">
+
+    
+    </form>
+    
+   <a href="backend_item.html"><input type="submit"  value="Go Back" class="btnform" ></a>
+  </div>
+
+</body>
+</html>

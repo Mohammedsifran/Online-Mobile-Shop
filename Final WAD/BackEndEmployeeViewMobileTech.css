@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+.BackendEmployeeView {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 36px;
+	font-style: normal;
+	color: #039;
+	text-decoration: none;
+}
+.Update {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	color: #039;
+	text-decoration: none;
+}
+.txtDelete {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	color: #039;
+	text-decoration: none;
+}

@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+.submit_contactus{
+	background-color:#09F;
+	color:#FFF;
+	
+	}
+submit_contactus:hover{
+	
+	border-color: #B80B0B;
+	color: black;
+	background-color: white;
+	}
+
+.WelcomeToMobile-Tech {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	color:#039;
+}
+
+.Log-in {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+.Password {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+.RememberMe {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+.remember-me {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color:#039;
+}
+.submit {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color:#039;
+	
+}
+.reset {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#039;
+}
+.OverAllTable {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: normal;
+	color: #039;
+	text-decoration: none;
+}
+.Sign-UpInSign-In {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #039;
+}
+.SignUPbuttonInSignIn {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	text-transform: none;
+	color: #039;
+	text-decoration: none;
+}

@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.AddEmployee {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	font-style: normal;
+	color: #039;
+	text-decoration: none;
+}
+.ViewEditEmployee {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:36px;
+	color:#039;
+	text-decoration:none
+}
+.htmlAddEmployee {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:24px;
+	font-style: normal;
+	text-decoration: none;
+	color:#003;
+}
+.htmlViewEditEmployees {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:24px;
+	font-style: normal;
+	text-decoration: none;
+	color:#003;
+}
